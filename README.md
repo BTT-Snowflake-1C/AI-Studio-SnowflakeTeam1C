@@ -54,9 +54,9 @@ Channels:
 - streamlit
 
 ### How to Run
-	1.	Connect this GitHub repository to Snowflake using Git integration
-	2.	Open app.py in Snowflake Streamlit
-	3.	Run the app (authentication handled automatically)
+- Connect this GitHub repository to Snowflake using Git integration
+- Open app.py in Snowflake Streamlit
+- Run the app (authentication handled automatically)
 
 ### 🧪 Data Sources
 These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity.
