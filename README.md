@@ -113,5 +113,10 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 
 ---
 
+## 🙏 **Acknowledgements** (Optional but encouraged)
+
+Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+
+
 © 2025 — Team Snowflake 1C  
 Break Through Tech AI Studio
