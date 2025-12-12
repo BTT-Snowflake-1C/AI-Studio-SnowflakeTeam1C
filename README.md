@@ -38,7 +38,7 @@
 ---
 ⸻
 
-👩🏽‍💻 Setup and Installation
+## 👩🏽‍💻 Setup and Installation
 
 This project runs **natively inside Snowflake Streamlit**.
 
@@ -63,16 +63,7 @@ How to Run
 
 ⸻
 
-🧪 Data Sources
-These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity.
 
-
-Snowflake tables used in this project:
-	•	SVI.PUBLIC.ARIZONA_CLEAN
-	•	SVI.PUBLIC.ARIZONA_2022_MAXTEMP
-	•	SVI.PUBLIC.ARIZONA_LICENSED_HOSPITAL
-	•	SVI.PUBLIC.SVI_HOSPITAL_MERGED
-	•	SVI.PUBLIC.SVICLEANED
 
 
 ⸻
@@ -145,6 +136,15 @@ Dependencies:
 	•	snowflake-snowpark-python
 	•	streamlit
 
+	How to Run
+	1.	Connect this GitHub repository to Snowflake using Git integration
+	
+	2.	Open app.py in Snowflake Streamlit
+	
+	3.	Run the app (authentication handled automatically)
+
+⸻
+
 How to Run
 	1.	Connect this GitHub repository to Snowflake using Git integration
 	2.	Open app.py in Snowflake Streamlit
@@ -153,7 +153,7 @@ How to Run
 ⸻
 
 🧪 Data Sources
-
+These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity.
 Snowflake tables used in this project:
 	•	SVI.PUBLIC.ARIZONA_CLEAN
 	•	SVI.PUBLIC.ARIZONA_2022_MAXTEMP
