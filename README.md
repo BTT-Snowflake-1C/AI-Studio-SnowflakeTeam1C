@@ -68,7 +68,7 @@ Snowflake tables used in this project:
 These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity.
 
 ---
-## 🏗️Project Overview
+🏗️Project Overview
 ---
 
 Connection to Break Through Tech AI
