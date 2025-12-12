@@ -70,8 +70,7 @@ Snowflake tables used in this project:
 These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity.
 
 ---
-### 🏗️Project Overview
-
+## 🏗️Project Overview
 
 Connection to Break Through Tech AI
 
@@ -151,6 +150,7 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 - Uses Snowflake-native get_active_session()
 - No hardcoded credentials
 - AI powered by Snowflake Cortex, not external LLM APIs
+
 ---
 
 
