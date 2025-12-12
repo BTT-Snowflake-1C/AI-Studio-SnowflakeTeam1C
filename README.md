@@ -128,9 +128,8 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 - Time-series heat analysis  
 - External validation beyond Arizona  
 
-⸻
 
-👩🏽‍💻 Setup and Installation
+## 👩🏽‍💻 Setup and Installation
 
 This project runs natively inside Snowflake Streamlit.
 
