@@ -12,7 +12,6 @@
 | Team Snowflake 1C | @nitsujiang | Data engineering, feature selection, exploratory analysis, modeling |
 | Team Snowflake 1C | @naima-01 | Data engineering, feature selection, exploratory analysis, modeling |
 
----
 
 ## 🎯 Project Highlights
 
