@@ -126,15 +126,6 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 - Time-series heat analysis  
 - External validation beyond Arizona  
 
----
-
-## 🙏 **Acknowledgements** (Optional but encouraged)
-
-Thank your Challenge Advisor, host company representatives, TA.
-
-
-
-
 ⸻
 
 👩🏽‍💻 Setup and Installation
@@ -273,7 +264,7 @@ Thank your Challenge Advisor, host company representatives, TA.
 
 ⸻
 
-© 2025 — Team Snowflake 1C
+© 2025 — Team Snowflake 1C❄️
 Break Through Tech AI Studio
 
 
