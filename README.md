@@ -31,12 +31,11 @@
 ---
 
 ## 🧰 Tech Stack
-	•	Snowflake (Snowpark, Cortex)
-	•	Streamlit (Snowflake-native)
-	•	Python (pandas, Altair)
-	•	GitHub (version control and deployment)
----
-⸻
+- Snowflake (Snowpark, Cortex)
+- Streamlit (Snowflake-native)
+- Python (pandas, Altair)
+- GitHub (version control and deployment)
+
 
 ## 👩🏽‍💻 Setup and Installation
 
@@ -70,7 +69,6 @@ Snowflake tables used in this project:
 
 These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity.
 
-⸻
 
 ## 🏗️Project Overview
 
@@ -131,15 +129,12 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 - Designed for explainability and decision support, not automated decision-making
 - No external API keys required
 
-⸻
 
 ### ⚖️ Responsible AI Considerations
 - County-level aggregation may hide within-county disparities
 - Small sample size limits generalizability
 - Perfect model performance flagged as a red flag, not a success metric
 - Outputs are intended to support human judgment, not replace it
-
-⸻
 
 ### 🚀 Next Steps
 - Expand datasets beyond Arizona
@@ -151,8 +146,6 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 - External validation beyond Arizona
 - Geospatial mapping layers  
 
-⸻
-
 ### 🔐 Security & Authentication
 - Uses Snowflake-native get_active_session()
 - No hardcoded credentials
@@ -162,8 +155,6 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 ## 🙏 **Acknowledgements** (Optional but encouraged)
 
 Thank your Challenge Advisor, host company representatives, TA.
-
-⸻
 
 © 2025 — Team Snowflake 1C❄️
 Break Through Tech AI Studio
