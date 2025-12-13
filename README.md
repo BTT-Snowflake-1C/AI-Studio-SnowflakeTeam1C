@@ -1,5 +1,5 @@
 # 🏜️ Navigating Care Deserts: Arizona Social Vulnerability & Healthcare Access Dashboard
----
+--- 
 
 ## 👥 Team Members
 
