@@ -68,7 +68,7 @@ Snowflake tables used in this project:
 - SVI.PUBLIC.SVI_HOSPITAL_MERGED
 - SVI.PUBLIC.SVICLEANED
 
-These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity.
+These datasets include county-level social vulnerability indicators, heat exposure metrics, population data, and licensed hospital capacity. They were sources from Arizona's Department of Health and NOAA.
 
 ---
 ## 🏗️Project Overview
@@ -111,6 +111,10 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 - Analyzed distributions, missing values, and county-level variation
 - Identified patterns linking vulnerability, heat risk, and hospital access
 - Used visual, interpretable EDA to support non-technical decision-makers
+
+- Visualizations
+<img width="1313" height="412" alt="image" src="https://github.com/user-attachments/assets/47093edf-a186-4ea7-871c-6fa17b45acff" />
+<img width="815" height="435" alt="image" src="https://github.com/user-attachments/assets/4827adf7-00a4-4711-a18c-8518de07366a" />
 
 
 ### 🧠 Model Development
