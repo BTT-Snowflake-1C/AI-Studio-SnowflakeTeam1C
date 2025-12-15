@@ -15,7 +15,7 @@ Snowflake 1C
 | Team Snowflake 1C | @cindycastanon | Modeling |
 
 
-## 🎯 Project Highlights
+## Project Highlights
 
 - Built an interactive **Streamlit-on-Snowflake dashboard** analyzing healthcare access across Arizona counties  
 - Combined **SVI, heat risk, and hospital capacity** into a single analytical view  
@@ -129,13 +129,13 @@ Visualization 2: Comparing County SVI Scores to County Hospital Frequency
 - Explicitly discussed risks of overfitting and data leakage
 	
 
-### 📈 Results & Key Findings
+### Results & Key Findings
 - All evaluated models achieved perfect precision and recall on the dataset
 - Results indicate a strong, easily separable pattern rather than robust generalization
 - High-risk counties consistently show overlap between social vulnerability, heat exposure, and limited healthcare capacity
 
 
-### 🤖 AI Usage
+### AI Usage
 - Integrated an AI Assistant powered by Snowflake Cortex
 - Enables natural-language questions about counties, vulnerability, and healthcare access
 - Designed for explainability and decision support, not automated decision-making
@@ -150,7 +150,7 @@ Visualization 2: Comparing County SVI Scores to County Hospital Frequency
 - Perfect model performance flagged as a red flag, not a success metric
 - Outputs are intended to support human judgment, not replace it
 
-### 🚀 Next Steps
+### Next Steps
 - Expand datasets beyond Arizona
 - Add cross-validation and temporal analysis
 - Integrate geospatial mapping layers to highlight regional changes
