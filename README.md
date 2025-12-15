@@ -123,25 +123,52 @@ Visualization 2(Multivariable): Comparing County SVI Scores to County Hospital F
 
 Given the small dataset size and public-policy use case, we prioritized **interpretability over model complexity**:
 
-- **Logistic Regression** — identifies statistical associations between features and medical desert status  
-- **Decision Tree** — provides transparent, rule-based explanations  
-- **Random Forest** — highlights feature importance and robustness across models
-
+- **Logistic Regression** — identifies statistical associations between features and medical desert status
 <img width="827" height="667" alt="Screenshot 2025-12-14 at 11 35 38 PM" src="https://github.com/user-attachments/assets/e7ff1ece-b7dd-490d-bfc6-1ce2280618e8" />
 
+- **Decision Tree** — provides transparent, rule-based explanations
 <img width="828" height="523" alt="Screenshot 2025-12-14 at 11 36 00 PM" src="https://github.com/user-attachments/assets/ed72c45b-cc44-47da-89b8-6cdb658cf362" />
+
+- **Random Forest** — highlights feature importance and robustness across models
 <img width="1061" height="680" alt="Screenshot 2025-12-14 at 11 37 59 PM" src="https://github.com/user-attachments/assets/7562cc36-329b-41ae-910a-35f38129b603" />
+
+Using multiple interpretable models allows us to verify whether the same structural patterns appear consistently rather than relying on a single algorithm.
 
 
 ### Training & Evaluation
 
-- Binary classification task: *medical desert* vs *non-medical desert*  
-- Performance metrics: **precision and recall**  
-- All models achieved perfect scores due to strong signal and small sample size  
+- **Task:** Binary classification (medical desert vs. non-medical desert)  
+- **Evaluation metrics:** Precision and recall  
+- **Validation approach:** Evaluation on the full county-level dataset due to limited sample size  
 
-⚠️ **Important Note:**  
-Perfect model performance is treated as a **red flag rather than a success metric**. 
-We explicitly discuss risks of overfitting, multicollinearity, and limited generalizability.
+#### Model Results
+
+All three models (Logistic Regression, Decision Tree, Random Forest) achieved:
+
+- **Precision:** 1.00  
+- **Recall:** 1.00  
+- **False Positives:** 0  
+
+These results indicate that the dataset contains a **strong, easily separable signal** between medical desert and non-medical desert counties.
+
+
+### Model Interpretation
+
+- Logistic Regression coefficients suggest that **higher hospital capacity per capita strongly reduces medical desert risk**, though several coefficients are unstable due to multicollinearity  
+- Decision Tree splits identify **heat risk** as the most informative variable for separating medical deserts from non-deserts  
+- Random Forest feature importance consistently ranks **heat risk** and **hospital access per capita** as the top predictors  
+
+
+### ⚠️ Important Note on Perfect Performance
+
+Perfect model performance is treated as a **red flag rather than a success metric**:
+
+- Perfect scores are rare in real-world data  
+- The small dataset size increases the risk of **overfitting**  
+- High multicollinearity among SVI variables limits coefficient interpretability  
+- Results may not generalize to new regions or time periods  
+
+As a result, these models are best understood as **exploratory and explanatory tools**, not production-ready predictive systems.
 
 ---
 
