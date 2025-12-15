@@ -19,13 +19,8 @@
 - Built an interactive **Streamlit-on-Snowflake dashboard** analyzing healthcare access across Arizona counties  
 - Combined **SVI, heat risk, and hospital capacity** into a single analytical view  
 - Identified counties at highest risk of being **medical deserts**  
-- Delivered **interpretable visual analysis** for policy and public health use  
 - Integrated a **Snowflake Cortex AI assistant** for natural-language insights
-- Built an interactive Streamlit dashboard deployed natively in Snowflake
 - Combined SVI, heat risk, and hospital capacity into a single analytical view
-- Identified counties at highest risk of being medical deserts
--	Delivered interpretable visual analysis for public health and policy use
--	Integrated a Snowflake Cortex AI assistant for natural-language insights
 
 ---
 
@@ -40,7 +35,7 @@
 
 ## 👩🏽‍💻 Setup and Installation
 
-This project runs **natively inside Snowflake Streamlit**.
+This project runs **inside Snowflake Streamlit**.
 
 **Environment**
 
@@ -75,24 +70,25 @@ These datasets include county-level social vulnerability indicators, heat exposu
 
 Connection to Break Through Tech AI
 
-This project was developed as part of the Break Through Tech AI Studio, where fellows work on real-world, industry-aligned data science challenges using enterprise platforms and responsible AI practices.
+This project was developed as part of the Break Through Tech AI Studio, where fellows work on real-world data science challenges using enterprise platforms and responsible AI practices.
 
 **Host Context & Objectives**
 
-The objective of this project is to identify and explain healthcare access gaps (“medical deserts”) in Arizona by analyzing how social vulnerability, heat exposure, population dynamics, and hospital capacity interact at the county level. social vulnerability, heat exposure, population dynamics, and hospital capacity intersect at the county level.
+The objective of this project is to identify and explain healthcare access gaps (“medical deserts”) in Arizona by analyzing how social vulnerability, heat exposure, population dynamics, and hospital capacity interact at the county level. The project takes various factors into consideration since public health crises like medical deserts tend to have a myriad of factors that impact them.
 
 **Scope of Work**
-- Data exploration and feature engineering using Snowflake
-- County-level comparative analysis and interactive visualization
-- Interpretability-focused model evaluation
-- AI-assisted insight generation for non-technical stakeholders
+- Data exploration and feature engineering using Snowflake Notebooks and Databases
+- County-level comparative analysis and visualizations (uni-factor and multi-factor)
+- Model development (three types)
+- Model evaluation using recall and precision
+- AI-assisted insight generation for non-technical users
 
 **Real-World Significance**
 
-Extreme heat and social vulnerability amplify healthcare inequities. This dashboard helps:
+Extreme heat and social vulnerability amplify healthcare inequities. This dashboard can help:
 - Public health officials prioritize intervention areas
-- Policymakers allocate healthcare resources more effectively
-- Communities prepare for climate-driven health risks
+- Communities better understand what factors impact their health risks
+- Make large amounts of health and SVI data easier to access using our AI chatbot
 
 ### 📊 Repository Structure
 - streamlit_app.py: Main Streamlit application file containing UI and page routing
@@ -112,10 +108,10 @@ Extreme heat and social vulnerability amplify healthcare inequities. This dashbo
 
 
 ### 📊 Data Exploration
-- Explored raw and engineered datasets directly from Snowflake
+- Explored raw and cleaned datasets directly from Snowflake
 - Analyzed distributions, missing values, and county-level variation
 - Identified patterns linking vulnerability, heat risk, and hospital access
-- Used visual, interpretable EDA to support non-technical decision-makers
+	- Conducted single variable exploration as well as multi-variable exploration for all counties
 
 - Visualizations: The goal is to explore the data and see if there are any counties with preliminary concerns for SVI or hospital access.
   
@@ -156,12 +152,7 @@ Visualization 2: Comparing County SVI Scores to County Hospital Frequency
 ### 🚀 Next Steps
 - Expand datasets beyond Arizona
 - Add cross-validation and temporal analysis
-- Integrate geospatial mapping layers
-- Evaluate external validation data
-- Cross-validation with expanded datasets
-- Time-series heat analysis  
-- External validation beyond Arizona
-- Geospatial mapping layers  
+- Integrate geospatial mapping layers to highlight regional changes
 
 
 ## 🙏 **Acknowledgements**
