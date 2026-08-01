@@ -15,7 +15,7 @@
 | Fiza Bajwa | [fizabajwa25](https://github.com/fizabajwa25) | Modeling evaluation, AI assitant |
 | Justin | @nitsujiang | Data Engineering, Multivariable EDA  |
 | Naima | @naima-01 | Exploratory analysis |
-| Cindy | @cindycastanon | Modeling |
+| Cindy | [cindycastanon](https://github.com/cindycastanon) | Modeling |
 
 
 ## Project Highlights ✨
